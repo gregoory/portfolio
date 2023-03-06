@@ -1,0 +1,191 @@
+body{
+    background-color: #CDF0EA;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    
+}
+
+
+
+
+ul{
+    position: relative;
+    margin-top: 0;
+    float: right;
+    right: 200px;
+    
+}
+ul a{
+
+    text-decoration: none;
+    color: cadetblue;
+}
+ul a:hover{
+    color:white;
+    
+}
+li{
+    display: inline-flex;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+
+
+
+h1{
+    color:cadetblue ;
+    font-weight: bold;
+    font-size: 5.625rem ;
+    padding-top: 300px;
+}
+h2{
+    color: cadetblue;
+  font-size: 2.5rem;
+
+}
+
+h3{
+    color: cadetblue;
+
+
+
+}
+p{
+    line-height: 2;
+}
+
+
+.web{
+    text-decoration: underline;
+}
+
+.top{
+    width: 200px;
+    position: absolute;
+    right: 300px;
+    top: 100px;
+}
+.mountain{
+    width: 700px;
+}
+.man-profile{
+    width: 150px;
+}
+
+.man{
+    float: left;
+    width: 150px;
+    margin-right: 20px;
+}
+.profile{
+    width:50%;
+    margin: auto;
+}
+hr{
+    width: 100px;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 10px;
+    color:black;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+   
+}
+.contact-me{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.footer-container{
+    font-weight: bold;
+    padding:50px 0  20px ;
+    height: 100px;
+    background-color: darkcyan;
+}
+.footer-link{
+    color: #CDF0EA;
+    margin: 20px 30px;
+    text-decoration: none;
+    color: darkgrey;
+}
+.footer-link:hover{
+     color: #fff;
+}
+
+
+
+.get-in-touch{
+    font-size: 50px;
+}
+
+.form{
+    background-color: #CDF0EA;
+    
+    height: 400px;
+    width: 400px;
+    margin:100px auto 100px auto;
+    margin-bottom: 50px;
+    border: 1px solid black;
+    border-radius: 2%;
+    box-shadow: darkgrey;
+    
+}
+.form-body{
+    margin-left: 70px;
+    padding-top: 40px;
+}
+
+.form-input{
+  display: block;
+  padding: 15px;
+  margin: 10px;
+  width: 200px;
+}
+.form-input-button{
+    margin-right: 77px;
+    padding: 15px;
+    width: 240px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.contact{
+    height: 50px;
+  
+}
+.contact:hover{
+    background-color: aqua;
+}
+
+#text-area{
+    width: 228px;
+    margin-right: 73px;
+}
+@media screen and (max-width:900px){
+ h1{
+     font-size: 50px;
+ }
+ li{
+     display: block;
+ }
+ .top{
+     display:none;
+ }
+ .mountain{
+     width: 200px;
+ }
+ p{
+     font-size: 20px;
+ }
+ .man{
+     width: 80px;
+ }
+}
